@@ -158,6 +158,8 @@ body {
   margin-right: 35px;
   margin-top: -10px;
   margin-bottom: 30px;
+  position: absolute;
+  left: 30%;
 }
 
 #myUL li a {

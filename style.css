@@ -21,6 +21,11 @@ body {
   font-weight: bold;
   background-color: black;
   color: white;
+  margin-left:auto;
+  margin-right:auto;
+  width: auto;
+  resize: both;
+  position: relative;
 }
 
 
@@ -110,6 +115,11 @@ body {
   border-radius: 50px;
 }
 
+html {
+  width: 201vh;
+  height: 100vh;
+}
+
 .topnav a:hover {
   color: black;
   background-color: #ddd;
@@ -150,16 +160,21 @@ body {
   border-radius: 50px;
 }
 
+
 #myUL {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  margin-left: 1100px;
+  margin: auto;
+  /* margin-left: 1100px;
   margin-right: 35px;
   margin-top: -10px;
-  margin-bottom: 30px;
-  position: absolute;
-  left: 30%;
+  margin-bottom: 30px; */
+  width: max-content;
+  position:absolute;
+  left: 1100px;
+  right: 35px;
+  bottom: -10px;
+  top: 200px;
 }
 
 #myUL li a {
@@ -217,4 +232,8 @@ li {
 
 a {
   border-radius: 10px;
+}
+
+.main_img {
+  text-align: center;
 }

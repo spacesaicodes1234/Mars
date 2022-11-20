@@ -22,35 +22,39 @@
 
   <body onload="sh1()">
     <h1 class="main_heading">MarsX</h1>
-
-    <div class="topnav">
-      <img
-        class="logo"
-        src="/logo.png"
-        alt="Image of our logo"
-        width="50"
-        height="50"
-      />
-      <a href="#home">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/contact.html">Contact</a>
-      <input
-        type="text"
-        id="myInput"
-        onclick="showHide()"
-        onkeyup="myFunction()"
-        placeholder="Search.."
-      />
+    <div class="tnasb">
+      <p class="topnav">
+        <div class="topnav">
+          <img
+            class="logo"
+            src="/logo.png"
+            alt="Image of our logo"
+            width="50"
+            height="50"
+          />
+          <a href="#home">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/contact.html">Contact</a>
+          <input
+            type="text"
+            id="myInput"
+            onclick="showHide()"
+            onkeyup="myFunction()"
+            placeholder="Search.."
+          />
+        </div>
+      </p>
+      <div id="myDIV">
+        <ul id="myUL" class="dropdown_content">
+          <li class="show"><a href="#about_mars">About Mars</a></li>
+          <li class="show"><a href="#mars_terrain">Mars terrain</a></li>
+          <li class="show"><a href="#mars_geography">Mars geography</a></li>
+          <li class="show"><a href="#fun_facts">Fun facts</a></li>
+          <button onclick="hideItems()" class="hb">Hide search Items</button>
+        </ul>
+      </div>
     </div>
-    <div id="myDIV">
-      <ul id="myUL" class="dropdown_content">
-        <li class="show"><a href="#about_mars">About Mars</a></li>
-        <li class="show"><a href="#mars_terrain">Mars terrain</a></li>
-        <li class="show"><a href="#mars_geography">Mars geography</a></li>
-        <li class="show"><a href="#fun_facts">Fun facts</a></li>
-        <button onclick="hideItems()" class="hb">Hide search Items</button>
-      </ul>
-    </div>
+    
 
     <h2 class="heading1" id="about_mars">About Mars</h2>
 

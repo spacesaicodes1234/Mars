@@ -33,8 +33,8 @@ body {
   font-family: "righteous";
   font-size: 40px;
   text-align: center;
-  color: black;
-  background-color: white;
+  color: whitesmoke;
+  background-color: rgb(48, 40, 40);
   padding: 10px 10px;
   border-radius: 15px;
 }
@@ -55,14 +55,27 @@ body {
   text-align: center;
 }
 
-.info1 {
+.info1al1 {
   font-size: 20px;
   font-family: "kanit";
   text-align: justify;
   text-align-last: justify;
   text-align-last: left;
-  color: black;
-  background-color: white;
+  color: whitesmoke;
+  background-color: rgb(58, 58, 58);
+  padding: 5px 5px;
+  margin-right: 47px;
+  border-radius: 10px;
+}
+
+.info1al2 {
+  font-size: 20px;
+  font-family: "kanit";
+  text-align: justify;
+  text-align-last: justify;
+  text-align-last: left;
+  color: whitesmoke;
+  background-color: rgb(19, 19, 19);
   padding: 5px 5px;
   margin-right: 47px;
   border-radius: 10px;

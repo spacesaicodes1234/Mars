@@ -16,9 +16,18 @@
   font-weight: bold;
 }
 
-body {
-  font-family: "Calibri";
+@font-face {
+  font-family: caveat_b;
+  src: url(/caveat-bold.ttf); 
   font-weight: bold;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+body {
   background-color: black;
   color: white;
   margin-left:auto;
@@ -39,7 +48,7 @@ body {
   border-radius: 15px;
 }
 
-.heading1 {
+.heading {
   font-size: 30px;
   font-family: "kanit_sb";
   color: whitesmoke;
@@ -51,11 +60,7 @@ body {
   text-align: center;
 }
 
-.ptia {
-  text-align: center;
-}
-
-.info1al1 {
+.info_al1 {
   font-size: 20px;
   font-family: "kanit";
   text-align: justify;
@@ -68,7 +73,7 @@ body {
   border-radius: 10px;
 }
 
-.info1al2 {
+.info_al2 {
   font-size: 20px;
   font-family: "kanit";
   text-align: justify;
@@ -79,34 +84,60 @@ body {
   padding: 5px 5px;
   margin-right: 47px;
   border-radius: 10px;
+  list-style: none;
 }
 
 
-.img1 {
+.abt_mars {
   border-radius: 10px;
-  height: auto;
+  height: 200px;
+  width: auto;
 }
 
-.info1g {
+.mars_terrain {
+  border-radius: 10px;
+  height: 200px;
+  width: auto;
+}
+
+.geo_mars {
+  border-radius: 10px;
+  height: 200px;
+  width: auto;
+  position: relative;
+  top: 100px;
+}
+
+.main_img {
+  text-align: center;
+}
+
+.fun_facts {
+  border-radius: 10px;
+  height: 360px;
+  width: 360px;
+  position: relative;
+  top: 100px;
+}
+
+.info_group1 {
   display: flex;
 }
 
 .copyright {
   margin-top: 50px;
   text-align: center;
+  font-family: "kanit";
 }
 
 .topnav {
   overflow: hidden;
   background-color: rgb(51, 51, 51);
   border-radius: 50px;
+  font-family: "caveat_b";
+  font-size: larger;
 }
 
-.hb {
-  border-color: white;
-  border-radius: 5px;
-  font-family: "kanit";
-}
 
 .topnav img {
   float: left;
@@ -129,8 +160,9 @@ body {
 }
 
 html {
-  width: 201vh;
+  width: 200vh;
   height: 100vh;
+  position: absolute;
 }
 
 .topnav a:hover {
@@ -246,6 +278,7 @@ a {
   border-radius: 10px;
 }
 
-.main_img {
+.ptia {
   text-align: center;
+  font-family: "kanit";
 }

@@ -1,24 +1,4 @@
 
-
-function showHide() {
-  var y = document.getElementById("myInput");
-  var x = document.getElementById("myDIV");
-  var z = document.getElementById("mob");
-  z.textContent = "Hide More Items ⬆️"
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-    z.textContent = "Show More items ⬇️"
-  }
-}
-
-
 function sh1() {
   var x = document.getElementById("myDIV");
   x.style.display = "none";
